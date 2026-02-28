@@ -1,4 +1,4 @@
-import bottleImg from "@/assets/olife-bottle.png";
+import bottleImg from "@/assets/olife-bottle.jpg";
 
 const HeroSection = () => {
   return (
