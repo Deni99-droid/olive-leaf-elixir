@@ -1,12 +1,17 @@
 import SectionHeader from "./SectionHeader";
 
 const benefits = [
-  { icon: "🛡", title: "ИММУНИТЕТ", desc: "Укрепляет защитные силы организма, помогает противостоять вирусам и бактериям" },
-  { icon: "⚡", title: "ЭНЕРГИЯ", desc: "Натуральный прилив сил без кофеина и стимуляторов — бодрость на весь день" },
-  { icon: "💚", title: "СЕРДЦЕ И СОСУДЫ", desc: "Поддерживает здоровье сердечно-сосудистой системы, нормализует давление" },
-  { icon: "🧬", title: "АНТИОКСИДАНТ", desc: "Нейтрализует свободные радикалы, замедляет процессы старения клеток" },
-  { icon: "🍃", title: "ДЕТОКС", desc: "Мягко очищает организм от токсинов и продуктов метаболизма" },
-  { icon: "✨", title: "КОЖА И ВОЛОСЫ", desc: "Улучшает состояние кожи, ногтей и волос благодаря антиоксидантному действию" },
+  { icon: "🛡", desc: "Укрепляет иммунитет" },
+  { icon: "🗑", desc: "Очищает организм и выводит токсины" },
+  { icon: "⚖️", desc: "Улучшает метаболизм жиров и углеводов (нормализует вес)" },
+  { icon: "⚡", desc: "Даёт энергию на весь день" },
+  { icon: "🧠", desc: "Стимулирует умственную деятельность" },
+  { icon: "😊", desc: "Вырабатывает серотонин, гормон счастья" },
+  { icon: "✨", desc: "Сохранение молодости и замедление старения кожи" },
+  { icon: "💚", desc: "Укрепляет сосуды. Стимулирует работу сердца" },
+  { icon: "🩸", desc: "Нормализует уровень сахара и холестерина в крови" },
+  { icon: "💓", desc: "Нормализует артериальное давление" },
+  { icon: "🦠", desc: "Имеет антибактериальные свойства" },
 ];
 
 const BenefitsSection = () => (
@@ -16,15 +21,29 @@ const BenefitsSection = () => (
         ЗАБОТА О <span className="text-primary">ЗДОРОВЬЕ</span>
       </SectionHeader>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-12">
-        {benefits.map((b) => (
+      {/* What does OLife give */}
+      <div className="bg-card border border-border rounded-xl p-8 md:p-10 mb-12">
+        <h3 className="font-display text-[clamp(32px,4vw,48px)] text-secondary-foreground tracking-wide leading-none mb-2">
+          ЧТО ДАЁТ <span className="text-primary">ОЛАЙФ?</span>
+        </h3>
+        <div className="flex items-baseline gap-3 mt-4 mb-4">
+          <span className="font-display text-5xl text-primary">70мл</span>
+          <span className="text-lg text-muted-foreground font-light">OLife раз в день</span>
+        </div>
+        <p className="text-lg font-light text-green-soft leading-relaxed max-w-2xl">
+          Всего один небольшой стакан запускает мощные процессы восстановления организма.
+        </p>
+      </div>
+
+      {/* Benefits list */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {benefits.map((b, i) => (
           <div
-            key={b.title}
-            className="bg-card border border-border rounded-xl p-7 transition-all hover:border-primary/40 hover:-translate-y-1"
+            key={i}
+            className="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 transition-all hover:border-primary/40 hover:-translate-y-0.5"
           >
-            <span className="text-3xl block mb-3.5">{b.icon}</span>
-            <h3 className="font-display text-xl tracking-[2px] text-secondary-foreground mb-2">{b.title}</h3>
-            <p className="text-base font-light text-green-soft leading-relaxed">{b.desc}</p>
+            <span className="text-2xl flex-shrink-0">{b.icon}</span>
+            <p className="text-base text-foreground leading-relaxed">{b.desc}</p>
           </div>
         ))}
       </div>
