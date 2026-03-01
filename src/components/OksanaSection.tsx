@@ -1,5 +1,5 @@
 import SectionHeader from "./SectionHeader";
-import oksanaImg from "@/assets/oksana.png";
+import oksanaImg from "@/assets/oksana2.jpg";
 
 const OksanaSection = () => (
   <section className="py-24 lg:py-28 bg-surface-2 border-t border-border">
