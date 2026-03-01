@@ -1,4 +1,5 @@
 import SectionHeader from "./SectionHeader";
+import olifeGrass from "@/assets/olife-grass.jpg";
 
 const WhatSection = () => (
   <section id="about" className="py-24 lg:py-28">
@@ -6,6 +7,12 @@ const WhatSection = () => (
       <SectionHeader label="Что такое OLife">
         ЭКСТРАКТ ОЛИВКОВОГО<br /><span className="text-primary">ЛИСТА</span>
       </SectionHeader>
+
+      <img
+        src={olifeGrass}
+        alt="Бутылка OLife на зелёной траве"
+        className="w-full max-h-[420px] object-cover rounded-2xl border border-border shadow-[0_24px_60px_rgba(0,0,0,0.5)] mb-12"
+      />
 
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <div>
