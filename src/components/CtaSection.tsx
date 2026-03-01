@@ -12,7 +12,7 @@ const CtaSection = () => (
       Закажите OLife и почувствуйте разницу. Натуральная сила оливкового листа для вашего здоровья.
     </p>
     <div className="relative flex gap-4 justify-center flex-wrap">
-      <a href="#" className="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(232,124,30,.35)] transition-all">
+      <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(232,124,30,.35)] transition-all">
         🛒 Заказать OLife
       </a>
       <a href="#" className="inline-flex items-center gap-2 px-7 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:border-olive-light hover:bg-olive/10 transition-all">
