@@ -19,6 +19,7 @@ const PriceSection = () => (
                         <span className="text-secondary-foreground font-bold uppercase tracking-wider">ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ:</span> С подпиской и скидкой <span className="text-primary font-bold">30%</span> стоимость падает до <span className="font-bold text-secondary-foreground">4620₽</span> за курс.
                         Это всего <span className="text-primary font-bold text-xl">165₽ в день</span>!
                         <br /><br />
+                        <span className="text-primary font-bold text-lg block mb-4">🌿 Порция здоровья всего за 165₽ в день!</span>
                         <span className="italic text-olive-light">☕️ Кофе дает бодрость на час. O'Life дает здоровье на годы.</span>
                     </p>
                 </div>
