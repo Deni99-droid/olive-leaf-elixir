@@ -11,7 +11,7 @@ const advantages = [
 ];
 
 const AdvantagesSection = () => (
-  <section className="py-24 lg:py-28 bg-surface-2 border-y border-border">
+  <section id="advantages" className="py-24 lg:py-28 bg-surface-2 border-y border-border">
     <div className="max-w-[1140px] mx-auto px-5 md:px-10">
       <SectionHeader label="Преимущества">
         ПОЧЕМУ <span className="text-primary">OLIFE</span>
