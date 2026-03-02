@@ -24,30 +24,35 @@ const PriceSection = () => (
                     </p>
                 </div>
 
-                {/* Right: Benefits Grid */}
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                    <Card className="bg-card border-border shadow-sm">
-                        <CardContent className="p-5">
-                            <h4 className="font-bold text-primary mb-2">Аптечные средства</h4>
-                            <ul className="text-sm text-muted-foreground space-y-1.5">
-                                <li>• Устраняют симптомы</li>
-                                <li>• Могут иметь побочные эффекты</li>
-                                <li>• Работают узконаправленно</li>
-                                <li>• Часто плохо усваиваются</li>
-                            </ul>
-                        </CardContent>
-                    </Card>
-                    <Card className="bg-primary/10 border-primary/30 shadow-md">
-                        <CardContent className="p-5">
-                            <h4 className="font-bold text-primary mb-2">Напиток O'Life</h4>
-                            <ul className="text-sm text-secondary-foreground space-y-1.5">
-                                <li>• 100% натуральный состав</li>
-                                <li>• Работает со всем организмом</li>
-                                <li>• Усваивается на 100% (жидкий)</li>
-                                <li>• Нет аналогов и побочек</li>
-                            </ul>
-                        </CardContent>
-                    </Card>
+                {/* Right: Unified Comparison Block */}
+                <div className="bg-card border border-border rounded-2xl overflow-hidden shadow-sm">
+                    <div className="grid grid-cols-2 bg-muted/50 border-b border-border">
+                        <div className="p-4 text-center font-bold text-muted-foreground uppercase text-xs tracking-wider">Аптечные средства</div>
+                        <div className="p-4 text-center font-bold text-primary uppercase text-xs tracking-wider bg-primary/5">Напиток O'Life</div>
+                    </div>
+                    <div className="divide-y divide-border">
+                        {[
+                            { label: "Состав", pharmacy: "💊 Синтетика / Химия", olife: "🌿 100% Натуральный" },
+                            { label: "Действие", pharmacy: "🎯 Узконаправленное", olife: "🌐 Весь организм" },
+                            { label: "Усвоение", pharmacy: "⏳ Плохо / Частично", olife: "⚡ 100% (жидкая форма)" },
+                            { label: "Эффект", pharmacy: "🩹 Снятие симптомов", olife: "🛠 Глубинное оздоровление" },
+                            { label: "Побочки", pharmacy: "⚠️ Часто присутствуют", olife: "✅ Отсутствуют" },
+                        ].map((row, i) => (
+                            <div key={i} className="grid grid-cols-2 group">
+                                <div className="p-4 text-sm text-muted-foreground border-r border-border flex flex-col gap-1">
+                                    <span className="text-[10px] uppercase opacity-50 font-bold">{row.label}</span>
+                                    {row.pharmacy}
+                                </div>
+                                <div className="p-4 text-sm text-secondary-foreground font-medium bg-primary/5 flex flex-col gap-1">
+                                    <span className="text-[10px] uppercase text-primary/50 font-bold">{row.label}</span>
+                                    {row.olife}
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                    <div className="p-4 bg-muted/30 text-center text-[11px] text-muted-foreground italic">
+                        * Сравнение основано на биодоступности и составе продуктов
+                    </div>
                 </div>
             </div>
 
