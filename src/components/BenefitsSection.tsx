@@ -16,7 +16,7 @@ const benefits = [
 ];
 
 const BenefitsSection = () => (
-  <section className="py-24 lg:py-28">
+  <section id="benefits" className="py-24 lg:py-28">
     <div className="max-w-[1140px] mx-auto px-5 md:px-10">
       <SectionHeader label="Польза">
         ЗАБОТА О <span className="text-primary">ЗДОРОВЬЕ</span>
