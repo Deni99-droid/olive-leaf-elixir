@@ -17,6 +17,7 @@ const Navbar = () => {
         { name: "Что это", href: "#about" },
         { name: "Польза", href: "#benefits" },
         { name: "Преимущества", href: "#advantages" },
+        { name: "Стоимость", href: "#price" },
         { name: "Отзывы", href: "#reviews" },
     ];
 
