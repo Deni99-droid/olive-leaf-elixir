@@ -50,9 +50,15 @@ const HeroSection = () => {
             Уникальная научно запатентованная продукция на основе экстракта оливкового листа — для энергии, иммунитета и здоровья всей семьи.
           </p>
 
-          <div className="animate-fade-up-2 inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light mb-8">
-            <span>🔬</span>
-            ПРОШЁЛ КЛИНИЧЕСКИЕ ИСПЫТАНИЯ
+          <div className="animate-fade-up-2 flex flex-wrap gap-3 mb-8">
+            <div className="inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light">
+              <span>🔬</span>
+              ПРОШЁЛ КЛИНИЧЕСКИЕ ИСПЫТАНИЯ
+            </div>
+            <div className="inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light">
+              <span>🏛️</span>
+              ОДОБРЕН МИНИСТЕРСТВОМ ЗДРАВООХРАНЕНИЯ
+            </div>
           </div>
 
           {/* Stats */}
