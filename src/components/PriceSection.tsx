@@ -11,25 +11,16 @@ const PriceSection = () => (
 
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mt-12">
                 {/* Left: Comparison Card */}
-                <div className="space-y-6">
+                <div className="bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-10">
                     <p className="text-xl font-light text-green-soft leading-relaxed">
                         Давайте посмотрим на цифры. Месячный курс O'Life стоит <span className="text-secondary-foreground font-bold">6600₽</span>.
                         Это всего <span className="text-primary font-bold text-2xl">236₽ в день</span> — цена одной чашки кофе.
+                        <br /><br />
+                        <span className="text-secondary-foreground font-bold uppercase tracking-wider">ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ:</span> С подпиской и скидкой <span className="text-primary font-bold">30%</span> стоимость падает до <span className="font-bold text-secondary-foreground">4620₽</span> за курс.
+                        Это всего <span className="text-primary font-bold text-xl">165₽ в день</span>!
+                        <br /><br />
+                        <span className="italic text-olive-light">☕️ Кофе дает бодрость на час. O'Life дает здоровье на годы.</span>
                     </p>
-
-                    <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 md:p-8">
-                        <h4 className="text-lg font-bold text-secondary-foreground mb-4 flex items-center gap-2">
-                            <span>💎</span> ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ
-                        </h4>
-                        <p className="text-green-soft mb-4">
-                            С подпиской и скидкой 30% стоимость падает до <span className="font-bold text-secondary-foreground">4620₽</span> за курс.
-                            Это всего <span className="text-primary font-bold text-xl">165₽ в день</span>!
-                        </p>
-                        <div className="flex items-center gap-3 text-sm text-olive-light italic">
-                            <span>☕️</span>
-                            Кофе дает бодрость на час. O'Life дает здоровье на годы.
-                        </div>
-                    </div>
                 </div>
 
                 {/* Right: Benefits Grid */}
