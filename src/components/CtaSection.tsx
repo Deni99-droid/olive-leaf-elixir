@@ -15,7 +15,7 @@ const CtaSection = () => (
       <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(232,124,30,.35)] transition-all">
         🛒 Заказать OLife
       </a>
-      <a href="#" className="inline-flex items-center gap-2 px-7 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:border-olive-light hover:bg-olive/10 transition-all">
+      <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:border-olive-light hover:bg-olive/10 transition-all">
         Связаться с Оксаной
       </a>
     </div>

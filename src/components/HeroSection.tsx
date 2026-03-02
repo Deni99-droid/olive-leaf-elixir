@@ -5,9 +5,9 @@ const HeroSection = () => {
     <section className="relative min-h-screen overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_80%_100%_at_60%_40%,hsl(110_40%_15%),hsl(var(--background))_70%)]" />
-      
+
       {/* Grid lines */}
-      <div 
+      <div
         className="absolute inset-0"
         style={{
           backgroundImage: 'linear-gradient(rgba(106,158,56,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(106,158,56,.06) 1px, transparent 1px)',
@@ -73,7 +73,7 @@ const HeroSection = () => {
             <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(232,124,30,.35)] transition-all">
               🛒 Заказать OLife
             </a>
-            <a href="#about" className="inline-flex items-center gap-2 px-7 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:border-olive-light hover:bg-olive/10 transition-all">
+            <a href="https://t.me/oksolife" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-7 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:border-olive-light hover:bg-olive/10 transition-all">
               Узнать больше
             </a>
           </div>
