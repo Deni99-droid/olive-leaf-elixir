@@ -18,6 +18,7 @@ const Navbar = () => {
         { name: "Польза", href: "#benefits" },
         { name: "Преимущества", href: "#advantages" },
         { name: "Стоимость", href: "#price" },
+        { name: "Заработок", href: "#earnings" },
         { name: "Отзывы", href: "#reviews" },
     ];
 
