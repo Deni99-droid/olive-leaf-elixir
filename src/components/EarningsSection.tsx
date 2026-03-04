@@ -90,7 +90,7 @@ const EarningsSection = () => {
 
                                     <div className="mt-10">
                                         <a
-                                            href="https://t.me/oksolife"
+                                            href="https://t.me/oksanao_life"
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="inline-flex items-center gap-3 w-full justify-center md:w-auto px-8 py-4 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light hover:-translate-y-0.5 hover:shadow-[0_8px_28px_rgba(232,124,30,.35)] transition-all"
