@@ -85,6 +85,18 @@ const HeroSection = () => {
               </svg>
               Telegram
             </a>
+            <a href="https://vk.com/id199239124" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:border-olive-light hover:bg-olive/10 transition-all" title="VK">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="shrink-0">
+                <path d="M23.45 5.948c.166-.546 0-.948-.795-.948h-2.625c-.668 0-.976.347-1.14.73 0 0-1.336 3.248-3.233 5.353-.612.612-.89.807-1.223.807-.166 0-.41-.195-.41-.755V5.948c0-.668-.195-.948-.75-.948H9.035c-.417 0-.668.31-.668.604 0 .634.948.78 1.045 2.56v3.867c0 .846-.153.998-.487.998-.89 0-3.055-3.263-4.338-7.003-.25-.724-.5-1.025-1.171-1.025H.79c-.75 0-.9.347-.9.73 0 .685.89 4.07 4.14 8.628 2.17 3.055 5.23 4.71 8.01 4.71 1.67 0 1.875-.375 1.875-1.02V15.02c0-.75.16-1 .694-1 .4 0 1.085.2 2.68 1.737 1.833 1.833 2.134 2.65 3.16 2.65H23.06c.75 0 1.125-.375.91-1.117-.233-.734-1.08-1.8-2.205-3.046-.612-.71-1.53-1.475-1.81-1.868-.39-.494-.28-.71 0-1.15 0 0 3.233-4.524 3.565-5.99z" />
+              </svg>
+              VK
+            </a>
+          </div>
+
+          <div className="animate-fade-up-3 mt-6">
+            <a href="tel:+79216915231" className="inline-flex items-center gap-2 text-lg font-bold text-secondary-foreground hover:text-primary transition-colors tracking-wider">
+              📞 8-921-691-52-31
+            </a>
           </div>
         </div>
 
