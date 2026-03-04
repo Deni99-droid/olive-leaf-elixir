@@ -1,4 +1,3 @@
-import { MessageCircle } from "lucide-react";
 import bottleImg from "@/assets/olife-bottle.jpg";
 
 const HeroSection = () => {
@@ -81,7 +80,9 @@ const HeroSection = () => {
               🛒 Заказать OLife
             </a>
             <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 px-4 py-3.5 rounded border border-border text-olive-light hover:border-olive-light hover:bg-olive/10 transition-all" title="Написать в Telegram">
-              <MessageCircle size={20} />
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" className="shrink-0">
+                <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.24.24-.48.24l.195-2.84 5.17-4.67c.223-.19-.054-.297-.356-.1l-6.39 4.02-2.76-.86c-.6-.18-.61-.6.12-.89l10.79-4.16c.5-.18.93.11.77.89z" />
+              </svg>
             </a>
           </div>
         </div>
