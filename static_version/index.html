@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="ru" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OLife — Токаренко Оксана | Экстракт оливкового листа</title>
-    <meta name="description" content="OLife — уникальный напиток на основе экстракта оливкового листа. Независимый партнёр Evergreen Life Products.">
-    
+    <meta name="description"
+        content="OLife — уникальный напиток на основе экстракта оливкового листа. Независимый партнёр Evergreen Life Products.">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mulish:ital,wght@0,300;0,400;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -42,7 +46,7 @@
             }
         }
     </script>
-    
+
     <style type="text/css">
         body {
             font-family: 'Mulish', sans-serif;
@@ -62,46 +66,93 @@
             opacity: 0.15;
         }
 
-        .font-display { font-family: 'Bebas Neue', sans-serif; }
+        .font-display {
+            font-family: 'Bebas Neue', sans-serif;
+        }
 
         @keyframes fadeUp {
-            from { opacity: 0; transform: translateY(24px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(24px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
 
         @keyframes pulse-glow {
-            0%, 100% { opacity: 0.6; transform: scale(1); }
-            50% { opacity: 1; transform: scale(1.05); }
+
+            0%,
+            100% {
+                opacity: 0.6;
+                transform: scale(1);
+            }
+
+            50% {
+                opacity: 1;
+                transform: scale(1.05);
+            }
         }
 
-        .animate-fade-up { animation: fadeUp 0.7s ease both; }
-        .animate-fade-up-1 { animation: fadeUp 0.7s 0.1s ease both; }
-        .animate-fade-up-2 { animation: fadeUp 0.7s 0.2s ease both; }
-        .animate-fade-up-3 { animation: fadeUp 0.7s 0.3s ease both; }
-        .animate-fade-up-5 { animation: fadeUp 0.9s 0.15s ease both; }
-        .animate-pulse-glow { animation: pulse-glow 3s ease-in-out infinite; }
+        .animate-fade-up {
+            animation: fadeUp 0.7s ease both;
+        }
+
+        .animate-fade-up-1 {
+            animation: fadeUp 0.7s 0.1s ease both;
+        }
+
+        .animate-fade-up-2 {
+            animation: fadeUp 0.7s 0.2s ease both;
+        }
+
+        .animate-fade-up-3 {
+            animation: fadeUp 0.7s 0.3s ease both;
+        }
+
+        .animate-fade-up-5 {
+            animation: fadeUp 0.9s 0.15s ease both;
+        }
+
+        .animate-pulse-glow {
+            animation: pulse-glow 3s ease-in-out infinite;
+        }
     </style>
 </head>
+
 <body>
 
     <!-- Navbar -->
-    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 md:px-10 py-5 bg-transparent">
+    <nav id="navbar"
+        class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 px-6 md:px-10 py-5 bg-transparent">
         <div class="max-w-[1240px] mx-auto flex items-center justify-between">
-            <div class="flex items-center gap-2 group cursor-pointer" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
-                <span class="font-display text-2xl tracking-[3px] text-secondary-foreground group-hover:text-primary transition-colors uppercase">OLIFE</span>
+            <div class="flex items-center gap-2 group cursor-pointer"
+                onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+                <span
+                    class="font-display text-2xl tracking-[3px] text-secondary-foreground group-hover:text-primary transition-colors uppercase">OLIFE</span>
                 <span class="hidden sm:block w-6 h-px bg-primary/40"></span>
             </div>
 
             <div class="hidden lg:flex items-center gap-8">
-                <a href="#about" class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Что это</a>
-                <a href="#benefits" class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Польза</a>
-                <a href="#advantages" class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Преимущества</a>
-                <a href="#price" class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Стоимость</a>
-                <a href="#earnings" class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Заработок</a>
-                <a href="#reviews" class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Отзывы</a>
+                <a href="#about"
+                    class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Что
+                    это</a>
+                <a href="#benefits"
+                    class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Польза</a>
+                <a href="#advantages"
+                    class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Преимущества</a>
+                <a href="#price"
+                    class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Стоимость</a>
+                <a href="#earnings"
+                    class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Заработок</a>
+                <a href="#reviews"
+                    class="text-xs font-bold tracking-[2px] uppercase text-olive-light hover:text-primary transition-colors">Отзывы</a>
             </div>
 
-            <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-primary text-primary-foreground font-bold text-[10px] tracking-[2px] uppercase hover:bg-orange-light transition-all shrink-0">
+            <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 px-5 py-2.5 rounded bg-primary text-primary-foreground font-bold text-[10px] tracking-[2px] uppercase hover:bg-orange-light transition-all shrink-0">
                 🛒 Заказать
             </a>
         </div>
@@ -109,12 +160,18 @@
 
     <!-- Hero Section -->
     <section class="relative min-h-screen overflow-hidden">
-        <div class="absolute inset-0 bg-[radial-gradient(ellipse_80%_100%_at_60%_40%,hsl(110_40%_15%),hsl(100_30%_5%)_70%)]"></div>
-        <div class="absolute inset-0" style="background-image: linear-gradient(rgba(106,158,56,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(106,158,56,.06) 1px, transparent 1px); background-size: 60px 60px;"></div>
+        <div
+            class="absolute inset-0 bg-[radial-gradient(ellipse_80%_100%_at_60%_40%,hsl(110_40%_15%),hsl(100_30%_5%)_70%)]">
+        </div>
+        <div class="absolute inset-0"
+            style="background-image: linear-gradient(rgba(106,158,56,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(106,158,56,.06) 1px, transparent 1px); background-size: 60px 60px;">
+        </div>
 
-        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-2 items-center min-h-screen px-6 md:px-20 gap-10 lg:gap-16">
+        <div
+            class="relative z-10 grid grid-cols-1 lg:grid-cols-2 items-center min-h-screen px-6 md:px-20 gap-10 lg:gap-16">
             <div class="py-24 lg:py-28 text-left">
-                <div class="animate-fade-up inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-7">
+                <div
+                    class="animate-fade-up inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-7">
                     <span class="block w-8 h-0.5 bg-primary"></span>
                     Независимый партнёр Evergreen Life Products
                 </div>
@@ -123,33 +180,40 @@
                     <div class="flex items-center gap-3">
                         <span class="font-display text-4xl text-primary">10</span>
                         <div>
-                            <div class="text-sm font-bold text-secondary-foreground tracking-wide uppercase">ЛЕТ В РОССИИ</div>
+                            <div class="text-sm font-bold text-secondary-foreground tracking-wide uppercase">ЛЕТ В
+                                РОССИИ</div>
                             <div class="text-xs text-muted-foreground">Десять лет вместе — это только начало!</div>
                         </div>
                     </div>
                     <div class="flex items-center gap-3">
                         <span class="text-2xl">🇮🇹</span>
                         <div>
-                            <div class="text-sm font-bold text-secondary-foreground tracking-wide uppercase">ИТАЛЬЯНСКАЯ КОМПАНИЯ</div>
+                            <div class="text-sm font-bold text-secondary-foreground tracking-wide uppercase">ИТАЛЬЯНСКАЯ
+                                КОМПАНИЯ</div>
                             <div class="text-xs text-muted-foreground">15 лет на рынке</div>
                         </div>
                     </div>
                 </div>
 
-                <h1 class="animate-fade-up-1 font-display text-[clamp(70px,8vw,120px)] leading-[0.95] text-secondary-foreground tracking-wide uppercase">
+                <h1
+                    class="animate-fade-up-1 font-display text-[clamp(70px,8vw,120px)] leading-[0.95] text-secondary-foreground tracking-wide uppercase">
                     СИЛА<br />ПРИРОДЫ<br />В КАЖДОМ<br />
                     <span class="text-primary">ГЛОТКЕ</span>
                 </h1>
 
-                <p class="animate-fade-up-2 text-lg font-light text-muted-foreground leading-relaxed mt-7 mb-10 max-w-[440px]">
-                    Уникальная научно запатентованная продукция на основе экстракта оливкового листа — для энергии, иммунитета и здоровья всей семьи.
+                <p
+                    class="animate-fade-up-2 text-lg font-light text-muted-foreground leading-relaxed mt-7 mb-10 max-w-[440px]">
+                    Уникальная научно запатентованная продукция на основе экстракта оливкового листа — для энергии,
+                    иммунитета и здоровья всей семьи.
                 </p>
 
                 <div class="animate-fade-up-2 flex flex-wrap gap-3 mb-8">
-                    <div class="inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light">
+                    <div
+                        class="inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light">
                         <span>🔬</span> ПРОШЁЛ КЛИНИЧЕСКИЕ ИСПЫТАНИЯ
                     </div>
-                    <div class="inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light">
+                    <div
+                        class="inline-flex items-center gap-2.5 bg-card border border-border rounded-lg px-4 py-2.5 text-sm text-olive-light">
                         <span>🏛️</span> ОДОБРЕН МИНИСТЕРСТВОМ ЗДРАВООХРАНЕНИЯ
                     </div>
                 </div>
@@ -158,25 +222,31 @@
                 <div class="animate-fade-up-3 grid grid-cols-3 gap-4 mb-10 max-w-md">
                     <div class="text-center">
                         <div class="font-display text-3xl text-primary">9+</div>
-                        <div class="text-[10px] tracking-wider text-muted-foreground mt-1 uppercase">ЛЕТ ИССЛЕДОВАНИЙ</div>
+                        <div class="text-[10px] tracking-wider text-muted-foreground mt-1 uppercase">ЛЕТ ИССЛЕДОВАНИЙ
+                        </div>
                     </div>
                     <div class="text-center">
                         <div class="font-display text-3xl text-primary">~100</div>
-                        <div class="text-[10px] tracking-wider text-muted-foreground mt-1 uppercase">БИОХИМИЧЕСКИХ ПРОЦЕССОВ</div>
+                        <div class="text-[10px] tracking-wider text-muted-foreground mt-1 uppercase">БИОХИМИЧЕСКИХ
+                            ПРОЦЕССОВ</div>
                     </div>
                     <div class="text-center">
                         <div class="font-display text-3xl text-primary">260+</div>
-                        <div class="text-[10px] tracking-wider text-muted-foreground mt-1 uppercase">МОЛЕКУЛ В УСВОЯЕМОЙ ФОРМЕ</div>
+                        <div class="text-[10px] tracking-wider text-muted-foreground mt-1 uppercase">МОЛЕКУЛ В УСВОЯЕМОЙ
+                            ФОРМЕ</div>
                     </div>
                 </div>
 
                 <div class="animate-fade-up-3 flex flex-wrap gap-4">
-                    <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light transition-all">
+                    <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2 px-7 py-3.5 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light transition-all">
                         🛒 Заказать OLife
                     </a>
-                    <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:bg-olive/10 transition-all">
+                    <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer"
+                        class="inline-flex items-center gap-2.5 px-6 py-3.5 rounded border border-border text-olive-light font-bold text-xs tracking-[2px] uppercase hover:bg-olive/10 transition-all">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-                            <path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.24.24-.48.24l.195-2.84 5.17-4.67c.223-.19-.054-.297-.356-.1l-6.39 4.02-2.76-.86c-.6-.18-.61-.6.12-.89l10.79-4.16c.5-.18.93.11.77.89z"/>
+                            <path
+                                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.24.24-.48.24l.195-2.84 5.17-4.67c.223-.19-.054-.297-.356-.1l-6.39 4.02-2.76-.86c-.6-.18-.61-.6.12-.89l10.79-4.16c.5-.18.93.11.77.89z" />
                         </svg>
                         Telegram
                     </a>
@@ -186,9 +256,14 @@
             <!-- Bottle Image -->
             <div class="hidden lg:flex justify-center items-center py-20 animate-fade-up-5">
                 <div class="relative">
-                    <div class="absolute -inset-10 bg-[radial-gradient(ellipse_at_center,hsl(100_45%_30%/.25),transparent_70%)] rounded-full animate-pulse-glow"></div>
-                    <img src="assets/olife-bottle.jpg" alt="OLife — экстракт оливкового листа" class="w-[min(400px,45vw)] rounded-2xl relative z-10 shadow-2xl">
-                    <div class="absolute bottom-8 -right-5 bg-primary text-primary-foreground font-display text-xs tracking-[2px] px-4 py-2 rounded z-20">MADE IN ITALY</div>
+                    <div
+                        class="absolute -inset-10 bg-[radial-gradient(ellipse_at_center,hsl(100_45%_30%/.25),transparent_70%)] rounded-full animate-pulse-glow">
+                    </div>
+                    <img src="assets/olife-bottle.jpg" alt="OLife — экстракт оливкового листа"
+                        class="w-[min(400px,45vw)] rounded-2xl relative z-10 shadow-2xl">
+                    <div
+                        class="absolute bottom-8 -right-5 bg-primary text-primary-foreground font-display text-xs tracking-[2px] px-4 py-2 rounded z-20">
+                        MADE IN ITALY</div>
                 </div>
             </div>
         </div>
@@ -198,22 +273,28 @@
     <section class="py-24 lg:py-28 bg-surface-2 border-t border-border">
         <div class="max-w-[1140px] mx-auto px-5 md:px-10">
             <div class="mb-14">
-                <div class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
+                <div
+                    class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
                     <span class="block w-6 h-0.5 bg-primary"></span> О партнёре
                 </div>
-                <h2 class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
+                <h2
+                    class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
                     ТОКАРЕНКО <span class="text-primary text-nowrap">ОКСАНА</span>
                 </h2>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                <img src="assets/oksana2.jpg" alt="Токаренко Оксана — независимый партнёр Evergreen Life Products" class="w-full rounded-2xl border border-border shadow-2xl">
+                <img src="assets/oksana2.jpg" alt="Токаренко Оксана — независимый партнёр Evergreen Life Products"
+                    class="w-full rounded-2xl border border-border shadow-2xl">
                 <div>
                     <p class="text-lg font-light text-green-soft leading-relaxed mb-5">
-                        Я сама попробовала O’Life и была очень удивлена результатом. После долгих поисков решения для здоровья этот продукт стал для меня настоящим открытием, которым я теперь искренне делюсь.
+                        Я сама попробовала O’Life и была очень удивлена результатом. После долгих поисков решения для
+                        здоровья этот продукт стал для меня настоящим открытием, которым я теперь искренне делюсь.
                     </p>
                     <p class="text-lg font-light text-green-soft leading-relaxed">
-                        Рада приветствовать вас в моём интернет-магазине! Приглашаю познакомиться с уникальной продукцией O’Life на основе экстракта оливковых листьев — возможно, она станет такой же поддержкой для вашей семьи, как и для моей.
+                        Рада приветствовать вас в моём интернет-магазине! Приглашаю познакомиться с уникальной
+                        продукцией O’Life на основе экстракта оливковых листьев — возможно, она станет такой же
+                        поддержкой для вашей семьи, как и для моей.
                     </p>
                 </div>
             </div>
@@ -224,41 +305,59 @@
     <section id="about" class="py-24 lg:py-28">
         <div class="max-w-[1140px] mx-auto px-5 md:px-10">
             <div class="mb-14">
-                <div class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
+                <div
+                    class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
                     <span class="block w-6 h-0.5 bg-primary"></span> Что такое OLife
                 </div>
-                <h2 class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
+                <h2
+                    class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
                     ЭКСТРАКТ ОЛИВКОВОГО<br /><span class="text-primary text-nowrap">ЛИСТА</span>
                 </h2>
             </div>
 
-            <img src="assets/olife-grass.jpg" alt="Бутылка OLife на зелёной траве" class="w-full max-h-[420px] object-cover rounded-2xl border border-border shadow-2xl mb-12">
+            <img src="assets/olife-grass.jpg" alt="Бутылка OLife на зелёной траве"
+                class="w-full max-h-[420px] object-cover rounded-2xl border border-border shadow-2xl mb-12">
 
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
                 <div>
                     <p class="text-lg font-light text-green-soft leading-relaxed mb-5">
-                        Олайф — это 100% натуральный водный экстракт оливковых ЛИСТЬЕВ из Италии. Это не масло и не вытяжка из оливок, а уникальный терапевтический напиток доказательной медицины.
+                        Олайф — это 100% натуральный водный экстракт оливковых ЛИСТЬЕВ из Италии. Это не масло и не
+                        вытяжка из оливок, а уникальный терапевтический напиток доказательной медицины.
                     </p>
                     <p class="text-lg font-light text-green-soft leading-relaxed mb-6">
-                        Содержит более 260 биодоступных молекул, включая <strong>Олеуропеин</strong> и <strong>Гидрокситирозол</strong> — самый мощный антиэйдж компонент в мире.
+                        Содержит более 260 биодоступных молекул, включая <strong>Олеуропеин</strong> и
+                        <strong>Гидрокситирозол</strong> — самый мощный антиэйдж компонент в мире.
                     </p>
                     <ul class="space-y-3">
-                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span class="text-primary mt-1">✔</span> Антивирусное, антибактериальное и антипаразитарное средство</li>
-                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span class="text-primary mt-1">✔</span> Природный антидепрессант</li>
-                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span class="text-primary mt-1">✔</span> Без противопоказаний и возрастных ограничений</li>
-                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span class="text-primary mt-1">✔</span> Запатентован, сертифицирован и одобрен Минздравом</li>
+                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span
+                                class="text-primary mt-1">✔</span> Антивирусное, антибактериальное и антипаразитарное
+                            средство</li>
+                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span
+                                class="text-primary mt-1">✔</span> Природный антидепрессант</li>
+                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span
+                                class="text-primary mt-1">✔</span> Без противопоказаний и возрастных ограничений</li>
+                        <li class="flex gap-3 items-start text-green-soft leading-relaxed"><span
+                                class="text-primary mt-1">✔</span> Запатентован, сертифицирован и одобрен Минздравом
+                        </li>
                     </ul>
                 </div>
 
                 <div class="bg-card border border-border rounded-xl p-8">
-                    <h3 class="font-display text-2xl tracking-[2px] text-secondary-foreground mb-5 uppercase">СОСТАВ</h3>
+                    <h3 class="font-display text-2xl tracking-[2px] text-secondary-foreground mb-5 uppercase">СОСТАВ
+                    </h3>
                     <div class="divide-y divide-border">
-                        <div class="flex gap-3 items-start py-3 text-green-soft"><span class="text-primary mt-0.5">▸</span> 93% — Экстракт оливковых листьев</div>
-                        <div class="flex gap-3 items-start py-3 text-green-soft"><span class="text-primary mt-0.5">▸</span> 7% — Экстракты календулы, рябины и лимона</div>
-                        <div class="flex gap-3 items-start py-3 text-green-soft"><span class="text-primary mt-0.5">▸</span> Олеуропеин — антиоксидант и защита сердца</div>
-                        <div class="flex gap-3 items-start py-3 text-green-soft"><span class="text-primary mt-0.5">▸</span> Гидрокситирозол — молекула молодости и красоты</div>
+                        <div class="flex gap-3 items-start py-3 text-green-soft"><span
+                                class="text-primary mt-0.5">▸</span> 93% — Экстракт оливковых листьев</div>
+                        <div class="flex gap-3 items-start py-3 text-green-soft"><span
+                                class="text-primary mt-0.5">▸</span> 7% — Экстракты календулы, рябины и лимона</div>
+                        <div class="flex gap-3 items-start py-3 text-green-soft"><span
+                                class="text-primary mt-0.5">▸</span> Олеуропеин — антиоксидант и защита сердца</div>
+                        <div class="flex gap-3 items-start py-3 text-green-soft"><span
+                                class="text-primary mt-0.5">▸</span> Гидрокситирозол — молекула молодости и красоты
+                        </div>
                     </div>
-                    <div class="mt-6 bg-primary/10 border border-primary/20 rounded-lg px-4 py-3 text-sm text-olive-light">
+                    <div
+                        class="mt-6 bg-primary/10 border border-primary/20 rounded-lg px-4 py-3 text-sm text-olive-light">
                         🌿 100% натуральный продукт. Одобрен Министерством здравоохранения.
                     </div>
                 </div>
@@ -270,16 +369,19 @@
     <section id="benefits" class="py-24 lg:py-28">
         <div class="max-w-[1140px] mx-auto px-5 md:px-10">
             <div class="mb-14">
-                <div class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
+                <div
+                    class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
                     <span class="block w-6 h-0.5 bg-primary"></span> Польза
                 </div>
-                <h2 class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
+                <h2
+                    class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
                     ЗАБОТА О <span class="text-primary text-nowrap">ЗДОРОВЬЕ</span>
                 </h2>
             </div>
 
             <div class="bg-card border border-border rounded-xl p-8 md:p-10 mb-12 text-left">
-                <h3 class="font-display text-[clamp(32px,4vw,48px)] text-secondary-foreground tracking-wide uppercase mb-2">
+                <h3
+                    class="font-display text-[clamp(32px,4vw,48px)] text-secondary-foreground tracking-wide uppercase mb-2">
                     ЧТО ДАЁТ <span class="text-primary">ОЛАЙФ?</span>
                 </h3>
                 <div class="flex items-baseline gap-3 mt-4 mb-4">
@@ -292,32 +394,50 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">🛡</span> <p class="text-base text-foreground">Укрепляет иммунитет</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">🛡</span>
+                    <p class="text-base text-foreground">Укрепляет иммунитет</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">🗑</span> <p class="text-base text-foreground">Очищает организм</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">🗑</span>
+                    <p class="text-base text-foreground">Очищает организм</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">⚖️</span> <p class="text-base text-foreground">Улучшает метаболизм</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">⚖️</span>
+                    <p class="text-base text-foreground">Улучшает метаболизм</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">⚡</span> <p class="text-base text-foreground">Даёт энергию</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">⚡</span>
+                    <p class="text-base text-foreground">Даёт энергию</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">🧠</span> <p class="text-base text-foreground">Стимулирует ум</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">🧠</span>
+                    <p class="text-base text-foreground">Стимулирует ум</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">😊</span> <p class="text-base text-foreground">Вырабатывает серотонин</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">😊</span>
+                    <p class="text-base text-foreground">Вырабатывает серотонин</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">✨</span> <p class="text-base text-foreground">Молодость кожи</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">✨</span>
+                    <p class="text-base text-foreground">Молодость кожи</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">💚</span> <p class="text-base text-foreground">Укрепляет сосуды</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">💚</span>
+                    <p class="text-base text-foreground">Укрепляет сосуды</p>
                 </div>
-                <div class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
-                    <span class="text-2xl shrink-0">🩸</span> <p class="text-base text-foreground">Уровень сахара</p>
+                <div
+                    class="flex items-center gap-4 bg-card border border-border rounded-xl px-6 py-4 hover:border-primary/40 transition-all">
+                    <span class="text-2xl shrink-0">🩸</span>
+                    <p class="text-base text-foreground">Уровень сахара</p>
                 </div>
             </div>
         </div>
@@ -327,10 +447,12 @@
     <section id="advantages" class="py-24 lg:py-28 bg-surface-2 border-y border-border">
         <div class="max-w-[1140px] mx-auto px-5 md:px-10">
             <div class="mb-14">
-                <div class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
+                <div
+                    class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
                     <span class="block w-6 h-0.5 bg-primary"></span> Преимущества
                 </div>
-                <h2 class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
+                <h2
+                    class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
                     ПОЧЕМУ <span class="text-primary text-nowrap">OLIFE</span>
                 </h2>
             </div>
@@ -338,33 +460,60 @@
             <div class="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                 <div class="relative rounded-2xl overflow-hidden shadow-2xl">
                     <img src="assets/olife-products.jpg" alt="Продукты OLife" class="w-full h-full object-cover">
-                    <div class="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent"></div>
+                    <div class="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent">
+                    </div>
                 </div>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 border border-border rounded-xl overflow-hidden">
-                    <div class="flex gap-5 items-start p-7 border-b border-r border-border hover:bg-white/5 transition-colors">
-                        <span class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">01</span>
-                        <div><strong class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Натуральный</strong> <span class="text-sm font-light text-muted-foreground whitespace-normal">Никакой химии — только экстракт</span></div>
+                    <div
+                        class="flex gap-5 items-start p-7 border-b border-r border-border hover:bg-white/5 transition-colors">
+                        <span
+                            class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">01</span>
+                        <div><strong
+                                class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Натуральный</strong>
+                            <span class="text-sm font-light text-muted-foreground whitespace-normal">Никакой химии —
+                                только экстракт</span></div>
                     </div>
                     <div class="flex gap-5 items-start p-7 border-b border-border hover:bg-white/5 transition-colors">
-                        <span class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">02</span>
-                        <div><strong class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Патент</strong> <span class="text-sm font-light text-muted-foreground whitespace-normal">Уникальная технология экстракции</span></div>
+                        <span
+                            class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">02</span>
+                        <div><strong
+                                class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Патент</strong>
+                            <span class="text-sm font-light text-muted-foreground whitespace-normal">Уникальная
+                                технология экстракции</span></div>
                     </div>
-                    <div class="flex gap-5 items-start p-7 border-b border-r border-border hover:bg-white/5 transition-colors">
-                        <span class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">03</span>
-                        <div><strong class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Наука</strong> <span class="text-sm font-light text-muted-foreground whitespace-normal">9+ лет клинических исследований</span></div>
+                    <div
+                        class="flex gap-5 items-start p-7 border-b border-r border-border hover:bg-white/5 transition-colors">
+                        <span
+                            class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">03</span>
+                        <div><strong
+                                class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Наука</strong>
+                            <span class="text-sm font-light text-muted-foreground whitespace-normal">9+ лет клинических
+                                исследований</span></div>
                     </div>
                     <div class="flex gap-5 items-start p-7 border-b border-border hover:bg-white/5 transition-colors">
-                        <span class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">04</span>
-                        <div><strong class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Качество</strong> <span class="text-sm font-light text-muted-foreground whitespace-normal">Европейские сертификаты безопасности</span></div>
+                        <span
+                            class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">04</span>
+                        <div><strong
+                                class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Качество</strong>
+                            <span class="text-sm font-light text-muted-foreground whitespace-normal">Европейские
+                                сертификаты безопасности</span></div>
                     </div>
                     <div class="flex gap-5 items-start p-7 border-r border-border hover:bg-white/5 transition-colors">
-                        <span class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">05</span>
-                        <div><strong class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Семья</strong> <span class="text-sm font-light text-muted-foreground whitespace-normal">Подходит детям от 6 месяцев</span></div>
+                        <span
+                            class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">05</span>
+                        <div><strong
+                                class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Семья</strong>
+                            <span class="text-sm font-light text-muted-foreground whitespace-normal">Подходит детям от 6
+                                месяцев</span></div>
                     </div>
                     <div class="flex gap-5 items-start p-7 hover:bg-white/5 transition-colors">
-                        <span class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">06</span>
-                        <div><strong class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Италия</strong> <span class="text-sm font-light text-muted-foreground whitespace-normal">Произведено в Италии</span></div>
+                        <span
+                            class="font-display text-5xl text-primary/30 leading-none shrink-0 w-12 text-right">06</span>
+                        <div><strong
+                                class="block text-lg font-bold text-secondary-foreground mb-1 uppercase">Италия</strong>
+                            <span class="text-sm font-light text-muted-foreground whitespace-normal">Произведено в
+                                Италии</span></div>
                     </div>
                 </div>
             </div>
@@ -375,10 +524,12 @@
     <section id="price" class="py-24 lg:py-28 bg-card/30">
         <div class="max-w-[1140px] mx-auto px-5 md:px-10 text-left">
             <div class="mb-14">
-                <div class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
+                <div
+                    class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
                     <span class="block w-6 h-0.5 bg-primary"></span> Стоимость
                 </div>
-                <h2 class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
+                <h2
+                    class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
                     O'LIFE — ЭТО <span class="text-primary text-nowrap">ДОРОГО?</span>
                 </h2>
             </div>
@@ -386,45 +537,67 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center mt-12">
                 <div class="bg-primary/5 border border-primary/20 rounded-2xl p-8 md:p-10">
                     <p class="text-xl font-light text-green-soft leading-relaxed">
-                        Давайте посмотрим на цифры. Месячный курс O'Life стоит <span class="text-secondary-foreground font-bold">6600₽</span>.
-                        Это всего <span class="text-primary font-bold text-2xl">236₽ в день</span> — цена одной чашки кофе.
+                        Давайте посмотрим на цифры. Месячный курс O'Life стоит <span
+                            class="text-secondary-foreground font-bold">6600₽</span>.
+                        Это всего <span class="text-primary font-bold text-2xl">236₽ в день</span> — цена одной чашки
+                        кофе.
                         <br /><br />
-                        <span class="text-secondary-foreground font-bold uppercase tracking-wider">ВЫГОДНОЕ ПРЕДЛОЖЕНИЕ:</span> С подпиской и скидкой <span class="text-primary font-bold">30%</span> стоимость падает до <span class="font-bold text-secondary-foreground">4620₽</span> за курс.
+                        <span class="text-secondary-foreground font-bold uppercase tracking-wider">ВЫГОДНОЕ
+                            ПРЕДЛОЖЕНИЕ:</span> С подпиской и скидкой <span class="text-primary font-bold">30%</span>
+                        стоимость падает до <span class="font-bold text-secondary-foreground">4620₽</span> за курс.
                         Это всего <span class="text-primary font-bold text-xl">165₽ в день</span>!
                         <br /><br />
-                        <span class="text-primary font-bold text-lg block mb-4 italic">🌿 Порция здоровья всего за 165₽ в день!</span>
-                        <span class="italic text-olive-light">☕️ Кофе дает бодрость на час. O'Life дает здоровье на годы.</span>
+                        <span class="text-primary font-bold text-lg block mb-4 italic">🌿 Порция здоровья всего за 165₽
+                            в день!</span>
+                        <span class="italic text-olive-light">☕️ Кофе дает бодрость на час. O'Life дает здоровье на
+                            годы.</span>
                     </p>
                 </div>
 
                 <div class="bg-card border border-border rounded-2xl overflow-hidden shadow-sm">
                     <div class="grid grid-cols-2 bg-muted/50 border-b border-border">
-                        <div class="p-4 text-center font-bold text-muted-foreground uppercase text-[10px] tracking-wider opacity-60">Аптечные средства</div>
-                        <div class="p-4 text-center font-bold text-primary uppercase text-[10px] tracking-wider bg-primary/5">Напиток O'Life</div>
+                        <div
+                            class="p-4 text-center font-bold text-muted-foreground uppercase text-[10px] tracking-wider opacity-60">
+                            Аптечные средства</div>
+                        <div
+                            class="p-4 text-center font-bold text-primary uppercase text-[10px] tracking-wider bg-primary/5">
+                            Напиток O'Life</div>
                     </div>
                     <div class="divide-y divide-border">
                         <div class="grid grid-cols-2 group">
                             <div class="p-4 text-sm text-muted-foreground border-r border-border">
-                                <span class="text-[9px] uppercase opacity-50 font-bold block mb-1 tracking-widest">Состав</span> 💊 Синтетика / Химия
+                                <span
+                                    class="text-[9px] uppercase opacity-50 font-bold block mb-1 tracking-widest">Состав</span>
+                                💊 Синтетика / Химия
                             </div>
                             <div class="p-4 text-sm text-secondary-foreground font-medium bg-primary/5">
-                                <span class="text-[9px] uppercase text-primary/50 font-bold block mb-1 tracking-widest">Состав</span> 🌿 100% Натуральный
+                                <span
+                                    class="text-[9px] uppercase text-primary/50 font-bold block mb-1 tracking-widest">Состав</span>
+                                🌿 100% Натуральный
                             </div>
                         </div>
                         <div class="grid grid-cols-2 group">
                             <div class="p-4 text-sm text-muted-foreground border-r border-border">
-                                <span class="text-[9px] uppercase opacity-50 font-bold block mb-1 tracking-widest">Действие</span> 🎯 Узконаправленное
+                                <span
+                                    class="text-[9px] uppercase opacity-50 font-bold block mb-1 tracking-widest">Действие</span>
+                                🎯 Узконаправленное
                             </div>
                             <div class="p-4 text-sm text-secondary-foreground font-medium bg-primary/5">
-                                <span class="text-[9px] uppercase text-primary/50 font-bold block mb-1 tracking-widest">Действие</span> 🌐 Весь организм
+                                <span
+                                    class="text-[9px] uppercase text-primary/50 font-bold block mb-1 tracking-widest">Действие</span>
+                                🌐 Весь организм
                             </div>
                         </div>
                         <div class="grid grid-cols-2 group">
                             <div class="p-4 text-sm text-muted-foreground border-r border-border">
-                                <span class="text-[9px] uppercase opacity-50 font-bold block mb-1 tracking-widest">Усвоение</span> ⏳ Плохо / Частично
+                                <span
+                                    class="text-[9px] uppercase opacity-50 font-bold block mb-1 tracking-widest">Усвоение</span>
+                                ⏳ Плохо / Частично
                             </div>
                             <div class="p-4 text-sm text-secondary-foreground font-medium bg-primary/5">
-                                <span class="text-[9px] uppercase text-primary/50 font-bold block mb-1 tracking-widest">Усвоение</span> ⚡ 100% (жидкая форма)
+                                <span
+                                    class="text-[9px] uppercase text-primary/50 font-bold block mb-1 tracking-widest">Усвоение</span>
+                                ⚡ 100% (жидкая форма)
                             </div>
                         </div>
                     </div>
@@ -437,44 +610,72 @@
     <section id="earnings" class="py-24 lg:py-28 bg-surface border-t border-border">
         <div class="max-w-[1140px] mx-auto px-5 md:px-10 text-left">
             <div class="mb-14">
-                <div class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
+                <div
+                    class="inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-4">
                     <span class="block w-6 h-0.5 bg-primary"></span> Возможности
                 </div>
-                <h2 class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
+                <h2
+                    class="font-display text-[clamp(42px,5vw,72px)] text-secondary-foreground leading-none tracking-wide uppercase">
                     ЗАРАБОТОК <span class="text-primary text-nowrap">С O’LIFE</span>
                 </h2>
             </div>
 
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
                 <div class="lg:col-span-7 space-y-6">
-                    <h3 class="text-2xl font-display text-secondary-foreground tracking-wide mb-6 uppercase">Путь с заботой о людях и о себе</h3>
+                    <h3 class="text-2xl font-display text-secondary-foreground tracking-wide mb-6 uppercase">Путь с
+                        заботой о людях и о себе</h3>
                     <p class="text-lg font-light text-muted-foreground leading-relaxed">
-                        Когда-то я даже не думала, что буду развиваться в этом направлении. У меня были сомнения и предрассудки о сетевом бизнесе. Но всё изменилось, когда в моей жизни появился продукт O’Life и я увидела реальные изменения у себя и близких.
+                        Когда-то я даже не думала, что буду развиваться в этом направлении. У меня были сомнения и
+                        предрассудки о сетевом бизнесе. Но всё изменилось, когда в моей жизни появился продукт O’Life и
+                        я увидела реальные изменения у себя и близких.
                     </p>
                     <p class="text-lg font-light text-muted-foreground leading-relaxed">
-                        Я просто начала делиться своим опытом — искренне и по-доброму. Так шаг за шагом пришло понимание, что здесь можно не только помогать людям, но и создавать достойный доход.
+                        Я просто начала делиться своим опытом — искренне и по-доброму. Так шаг за шагом пришло
+                        понимание, что здесь можно не только помогать людям, но и создавать достойный доход.
                     </p>
-                    
+
                     <div class="pt-8">
-                        <div class="p-8 rounded-2xl bg-surface-2 border border-primary/20 shadow-lg relative overflow-hidden group">
+                        <div
+                            class="p-8 rounded-2xl bg-surface-2 border border-primary/20 shadow-lg relative overflow-hidden group">
                             <div class="relative z-10">
-                                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-4">🎁 Подарок для вас</div>
-                                <h4 class="text-xl font-display text-secondary-foreground mb-4 uppercase">Бесплатная 20-минутная консультация</h4>
+                                <div
+                                    class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-4">
+                                    🎁 Подарок для вас</div>
+                                <h4 class="text-xl font-display text-secondary-foreground mb-4 uppercase">Бесплатная
+                                    20-минутная консультация</h4>
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-sm text-secondary-foreground/80">
                                     <ul class="space-y-3">
-                                        <li class="flex items-center gap-3"><span class="text-primary">🤍</span> Задать любые вопросы</li>
-                                        <li class="flex items-center gap-3"><span class="text-primary">🌱</span> Понять, с чего начать</li>
+                                        <li class="flex items-center gap-3"><span class="text-primary">🤍</span> Задать
+                                            любые вопросы</li>
+                                        <li class="flex items-center gap-3"><span class="text-primary">🌱</span> Понять,
+                                            с чего начать</li>
                                     </ul>
                                     <ul class="space-y-3">
-                                        <li class="flex gap-2"><span class="text-primary">✨</span> Выбрать комфортный формат</li>
-                                        <li class="flex gap-2"><span class="text-primary">📌</span> Разобраться в выгоде</li>
+                                        <li class="flex gap-2"><span class="text-primary">✨</span> Выбрать комфортный
+                                            формат</li>
+                                        <li class="flex gap-2"><span class="text-primary">📌</span> Разобраться в выгоде
+                                        </li>
                                     </ul>
                                 </div>
                                 <div class="mt-10">
-                                    <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-3 w-full justify-center md:w-auto px-8 py-4 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light transition-all">
-                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.24.24-.48.24l.195-2.84 5.17-4.67c.223-.19-.054-.297-.356-.1l-6.39 4.02-2.76-.86c-.6-.18-.61-.6.12-.89l10.79-4.16c.5-.18.93.11.77.89z"/></svg>
+                                    <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer"
+                                        class="inline-flex items-center gap-3 w-full justify-center md:w-auto px-8 py-4 rounded bg-primary text-primary-foreground font-bold text-xs tracking-[2px] uppercase hover:bg-orange-light transition-all">
+                                        <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                                            <path
+                                                d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.14-.24.24-.48.24l.195-2.84 5.17-4.67c.223-.19-.054-.297-.356-.1l-6.39 4.02-2.76-.86c-.6-.18-.61-.6.12-.89l10.79-4.16c.5-.18.93.11.77.89z" />
+                                        </svg>
                                         Написать мне и записаться
                                     </a>
+                                    <div class="mt-4 flex flex-col gap-3">
+                                        <a href="tel:+79216915231"
+                                            class="text-secondary-foreground hover:text-primary transition-colors font-bold tracking-wider">
+                                            📞 8-921-691-52-31
+                                        </a>
+                                        <a href="https://vk.com/id199239124" target="_blank" rel="noopener noreferrer"
+                                            class="text-olive-light hover:text-primary transition-colors text-xs font-bold tracking-widest uppercase">
+                                            Написать в VK
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -484,13 +685,19 @@
                 <div class="lg:col-span-5 lg:sticky lg:top-32">
                     <div class="p-8 rounded-2xl border border-border bg-card/50 backdrop-blur-sm shadow-xl">
                         <blockquote class="text-xl font-light italic leading-relaxed text-secondary-foreground/90">
-                            "Для меня это не просто работа — это возможность быть полезной, расти самой и видеть, как меняется жизнь других людей. Я буду рада познакомиться с вами и помочь сделать первый шаг. Будем расти вместе 🌿"
+                            "Для меня это не просто работа — это возможность быть полезной, расти самой и видеть, как
+                            меняется жизнь других людей. Я буду рада познакомиться с вами и помочь сделать первый шаг.
+                            Будем расти вместе 🌿"
                         </blockquote>
                         <div class="mt-8 flex items-center gap-4">
-                            <div class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-display text-xl">О</div>
+                            <div
+                                class="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center text-primary font-display text-xl">
+                                О</div>
                             <div>
-                                <div class="font-bold text-secondary-foreground uppercase tracking-wider text-xs">Оксана Токаренко</div>
-                                <div class="text-[10px] text-muted-foreground uppercase tracking-[1px]">Партнёр Evergreen Life</div>
+                                <div class="font-bold text-secondary-foreground uppercase tracking-wider text-xs">Оксана
+                                    Токаренко</div>
+                                <div class="text-[10px] text-muted-foreground uppercase tracking-[1px]">Партнёр
+                                    Evergreen Life</div>
                             </div>
                         </div>
                     </div>
@@ -502,10 +709,26 @@
     <!-- Footer -->
     <footer class="bg-background border-t border-border py-12 px-10 text-center">
         <p class="text-sm text-foreground/25 leading-8 uppercase tracking-widest">
-            © 2025 Токаренко Оксана — независимый партнёр 
-            <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer" class="text-primary hover:underline">Evergreen Life Products</a>
+            © 2025 Токаренко Оксана — независимый партнёр
+            <a href="https://evergreenlife.io/oksanatokarenko" target="_blank" rel="noopener noreferrer"
+                class="text-primary hover:underline">Evergreen Life Products</a>
             <br />
-            <span class="normal-case tracking-normal text-xs opacity-50">Продукт не является лекарственным средством. Перед применением проконсультируйтесь со специалистом.</span>
+        <div class="flex justify-center gap-6 mt-4 mb-4 lowercase tracking-normal">
+            <a href="https://t.me/oksanao_life" target="_blank" rel="noopener noreferrer"
+                class="text-olive-light hover:text-primary transition-colors font-bold text-xs tracking-widest uppercase flex items-center gap-2">
+                Telegram
+            </a>
+            <a href="https://vk.com/id199239124" target="_blank" rel="noopener noreferrer"
+                class="text-olive-light hover:text-primary transition-colors font-bold text-xs tracking-widest uppercase flex items-center gap-2">
+                VK
+            </a>
+            <a href="tel:+79216915231"
+                class="text-olive-light hover:text-primary transition-colors font-bold text-xs tracking-widest uppercase flex items-center gap-2">
+                📞 8-921-691-52-31
+            </a>
+        </div>
+        <span class="normal-case tracking-normal text-xs opacity-50">Продукт не является лекарственным средством. Перед
+            применением проконсультируйтесь со специалистом.</span>
         </p>
     </footer>
 
@@ -523,4 +746,5 @@
         });
     </script>
 </body>
+
 </html>

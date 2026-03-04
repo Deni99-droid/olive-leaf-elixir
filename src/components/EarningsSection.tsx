@@ -100,6 +100,14 @@ const EarningsSection = () => {
                                             </svg>
                                             Написать мне и записаться
                                         </a>
+                                        <div className="mt-4 flex flex-col gap-3">
+                                            <a href="tel:+79216915231" className="text-secondary-foreground hover:text-primary transition-colors font-bold tracking-wider">
+                                                📞 8-921-691-52-31
+                                            </a>
+                                            <a href="https://vk.com/id199239124" target="_blank" rel="noopener noreferrer" className="text-olive-light hover:text-primary transition-colors text-xs font-bold tracking-widest uppercase">
+                                                Написать в VK
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
