@@ -20,7 +20,7 @@ const HeroSection = () => {
         <div className="py-24 lg:py-28">
           <div className="animate-fade-up inline-flex items-center gap-2.5 text-xs font-bold tracking-[4px] uppercase text-primary mb-7">
             <span className="block w-8 h-0.5 bg-primary" />
-            Независимый партнёр OLife
+            Независимый партнёр Evergreen Life Products
           </div>
 
           {/* Ticker */}
